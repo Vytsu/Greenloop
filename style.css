@@ -1,0 +1,101 @@
+*{
+    font-family:sans-serif;
+    margin:0;
+}
+
+body{
+    background-image: url(https://img.freepik.com/premium-photo/png-waste-recycling-bin-background-watercolor-illustration_53876-939091.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:start;
+}
+
+.nav-logo img{
+    height:8rem;
+}
+
+.nav-links a{
+    color:#80B83B;
+    text-decoration: none;
+    margin-left:10rem;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.para h1{
+   margin-top: 4rem;
+    margin-left:4rem;
+    color:#c6914b;
+    font-size: 100%;
+}
+
+.para p{
+    width: 50%;
+    margin-top: 1rem;
+    margin-left:4rem;
+    color:#CEAC80;
+}
+
+.intro{
+    color:#80B83B;
+    height:100px;
+    width:50%;
+    text-align: center;
+    margin-top:4rem;
+}
+.intro p{
+    margin-top: 1rem;
+}
+
+.loginbuttons button{
+    padding: 10px 30px 10px 30px;
+    font-size: 14px;
+    font-weight:500;
+}
+
+.loginbuttons{
+    display: flex;
+    height:200px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.BBMPLoginBut{
+    background-color: #80B83B;
+    border-radius: 10px;
+    border: none;
+    color:#EAF3F0;
+}
+
+.SchoolLoginBut{
+    background-color: #5CB7FF;
+    border-radius: 10px;
+    border: none;
+    color:#F4F6F1;
+    margin-left:4rem;
+}
+
+.loginentry{
+    display: flex;
+    height:200px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginentry input{
+    padding:10px 30px 10px 30px;
+    font-size: 14px;
+    font-weight:500;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    color:#000000;
+}
+

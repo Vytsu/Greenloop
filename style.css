@@ -1,30 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 *{
-    font-family:sans-serif;
+    font-family:'Ubuntu', sans-serif;
     margin:0;
+    padding:0;
 }
 
 body{
     background-image: url(https://img.freepik.com/premium-photo/png-waste-recycling-bin-background-watercolor-illustration_53876-939091.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .navbar{
     display:flex;
     align-items: center;
-    justify-content:start;
-    height:6rem;
+    justify-content:flex-end;
+    height: 4rem;
+    background-color: #9cb69c;
+    box-shadow: 1px green;
 }
 
-.nav-logo img{
-    height:8rem;
+.nav-links a:hover{
+    color:rgb(134, 130, 130);
+    border: white;
+    border-radius: 2px;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 1rem;
+    color: #3b6c00;
+    cursor: pointer;
+}
+
+.nav-logo:hover{
+    color: #EAF3F0;
 }
 
 .nav-links a{
-    color:#80B83B;
+    color:white;
     text-decoration: none;
-    margin-left:10rem;
-    font-size: 12px;
+    margin-left:5rem;
+    margin-right: 2rem;
+    font-size: 2vh;
     font-weight: 600;
 }
 
@@ -74,6 +96,10 @@ body{
     color:#EAF3F0;
 }
 
+.BBMPLoginBut:hover{
+    background-color: #477c07;
+}
+
 .SchoolLoginBut{
     background-color: #5CB7FF;
     border-radius: 10px;
@@ -82,6 +108,9 @@ body{
     margin-left:4rem;
 }
 
+.SchoolLoginBut:hover{
+    background-color: #038eff;
+}
 .loginentry{
     display: flex;
     height:200px;
@@ -100,3 +129,93 @@ body{
     color:#000000;
 }
 
+.dataBBMP {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.headdash{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #80B83B;
+}
+
+.box{
+    height:25vh;
+    width: 25vh;
+    margin-top:2rem;
+    background-color: #80B83B;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 20px;
+}
+
+.box h2{
+    text-align: center;
+    padding-top: 1rem;
+    color:#F4F6F1;
+    font-size: 3vh;
+}
+
+.box h1{
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 60px ;
+    color: white;
+    font-size: 5vh;
+}
+
+.school-head h1{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #80B83B;
+    width: 100%;
+}
+
+.school-head p{
+    margin-left: 3rem;
+    font-weight: 400;
+    color: #80B83B;
+}
+
+.studentdata{
+    display: flex;
+}
+
+.data-head{
+    display:flex;
+    width:500px;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.green-points ol{
+    list-style: none;
+}
+
+.school-dash {
+    display: flex;
+    margin-bottom: 15rem;
+}
+
+@media(max-width:768px){
+    body{
+        background-image: none;
+    }
+    .nav-links{
+        display:none;
+    }
+    .intro{
+        height:auto;
+        width:auto;
+    }
+    .loginbuttons{
+        height:auto;
+        width:auto;
+        margin-top: 100px;
+    }
+    .loginentry{
+        height:auto;
+        width:auto;
+    }
+}

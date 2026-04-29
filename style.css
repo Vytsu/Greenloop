@@ -51,7 +51,7 @@ body{
 }
 
 .para h1{
-   margin-top: 4rem;
+    margin-top: 4rem;
     margin-left:4rem;
     color:#c6914b;
     font-size: 100%;
@@ -202,7 +202,11 @@ body{
     body{
         background-image: none;
     }
-    
+    .para p{
+        margin: 14px 14px;
+        width: 100%;
+        margin-right:15px;
+    }
     .nav-links a{
         height: 12px;
         font-size: 12px;

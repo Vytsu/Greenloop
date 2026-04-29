@@ -202,8 +202,12 @@ body{
     body{
         background-image: none;
     }
-    .nav-links{
-        display:none;
+    
+    .nav-links a{
+        height: 12px;
+        font-size: 12px;
+        margin:0;
+        margin-right: 1rem;
     }
     .intro{
         height:auto;
